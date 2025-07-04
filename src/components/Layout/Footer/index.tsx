@@ -40,12 +40,17 @@ const Footer: FC = () => {
               </Link>
             </div>
             <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              2025 Copright | Crypgo
+              2025 Hak Cipta | Andhika Fajar Prayoga & Hilmi Musyadad
             </h3>
-            
+            <p className="text-muted text-opacity-60 text-16 mt-4">
+              virallinkonten.com | Viralinagency01@gmail.com
+            </p>
+            <p className="text-muted text-opacity-60 text-16">
+              +62 858‑6138‑4907 | Bandung, Jawa Barat
+            </p>
           </div>
           <div className="lg:col-span-2 md:col-span-3 col-span-6">
-            <h4 className="text-white mb-4 font-medium text-24">Links</h4>
+            <h4 className="text-white mb-4 font-medium text-24">Tautan</h4>
             <ul>
               {headerData.map((item, index) => (
                 <li key={index} className="pb-4">
@@ -60,7 +65,7 @@ const Footer: FC = () => {
             </ul>
           </div>
           <div className="lg:col-span-2 md:col-span-3 col-span-6">
-            <h4 className="text-white mb-4 font-medium text-24">Information</h4>
+            <h4 className="text-white mb-4 font-medium text-24">Informasi</h4>
             <ul>
               {footerlabels.map((item, index) => (
                 <li key={index} className="pb-4">
@@ -75,17 +80,17 @@ const Footer: FC = () => {
             </ul>
           </div>
           <div className="lg:col-span-4 md:col-span-4 col-span-6">
-            <h3 className="text-white text-24 font-medium">Subscribe</h3>
+            <h3 className="text-white text-24 font-medium">Berlangganan</h3>
             <p className="text-muted text-opacity-60 text-18 mt-5">
-              Subscribe to get the latest
-              <br /> news form us
+              Berlangganan untuk mendapatkan berita terbaru
+              <br /> dari kami
             </p>
             <div className="relative lg:w-80%">
               <input
                 type="email"
                 name="mail"
                 id="mail"
-                placeholder="Enter Email"
+                placeholder="Masukkan Email"
                 className="bg-transparent border border-dark_border border-opacity-60 py-4 text-white rounded-lg w-full mt-6 px-6"
               />
               <Icon
